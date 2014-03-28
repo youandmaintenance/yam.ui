@@ -3,7 +3,7 @@
 /**
  * @name yam.ui
  */
-angular.module('yam.ui', [])
+angular.module('yam.ui', ['ngAnimate'])
 
 .config(['$provide', function ($provide) {
   $provide.service('yamUiScrollerService', function () {
